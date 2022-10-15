@@ -1,29 +1,24 @@
-.nav_bar{
+ul.nav_bar{
   font-family: 'Rubik', sans-serif;
-  display: block;
-  margin-top: auto;
-  padding-top: .5cm;
-  padding-bottom: .5cm;
+  height: 80px;
   list-style: none;
+  
+  border: 2px black;
 }
 
-ol .nav_bar li{
-float: left;
-}
-
-a:hover{
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
   color: black;
+  border: #00b4f5 12px;
 }
 
-
-.page1.page2.page3{
+.nav_bar li{
 float: left;
-text-align: center;
 display: block;
-margin: 0;
-padding: 0;
-
+padding: .5cm;
+text-decoration-style: none;
 }
+
 
 
 h1{
