@@ -1,0 +1,58 @@
+
+.nav_bar{
+  font-family: 'Rubik', sans-serif;
+  background-color: #00b4f5;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes.png");
+  margin-top: auto;
+  padding-top: .5cm;
+  padding-bottom: .5cm;
+  text-align: center;
+  list-style: none;
+}
+
+.page1{
+text-align: left;
+height: 1cm;
+}
+
+.page2{
+text-align: center;
+
+}
+
+.page3{
+text-align: right;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: darkolivegreen;
+  padding: .1%;
+  float: right, left;
+}
+
+.Intro{
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+  margin-left: .5cm;
+  margin-top: .5cm;
+}
+
+.onpage{
+  background-image: url("../image/cool-background.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.onpage1{
+  background-image: url("../image/crissxcross.png");
+  background-repeat:repeat;
+  background-color: #00b4f5;
+}
+.onpage2{
+  width: fixed;
+}
