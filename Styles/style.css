@@ -1,28 +1,30 @@
 .nav_bar{
   font-family: 'Rubik', sans-serif;
-  display: inline-block;
-  background-color: #00b4f5;
-  background-image: url("https://www.transparenttextures.com/patterns/dark-stripes.png");
+  display: block;
   margin-top: auto;
   padding-top: .5cm;
   padding-bottom: .5cm;
-  text-align: center;
   list-style: none;
 }
 
-.page1{
-text-align: left;
-height: 1cm;
+ol .nav_bar li{
+float: left;
 }
 
-.page2{
+a:hover{
+  color: black;
+}
+
+
+.page1.page2.page3{
+float: left;
 text-align: center;
+display: block;
+margin: 0;
+padding: 0;
 
 }
 
-.page3{
-text-align: right;
-}
 
 h1{
   text-align: center;
