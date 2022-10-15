@@ -2,14 +2,11 @@ ul.nav_bar{
   font-family: 'Rubik', sans-serif;
   height: 80px;
   list-style: none;
-  
-  border: 2px black;
 }
 
 a:link, a:visited, a:hover, a:active{
   text-decoration: none;
-  color: black;
-  border: #00b4f5 12px;
+  color: white;
 }
 
 .nav_bar li{
@@ -19,6 +16,27 @@ padding: .5cm;
 text-decoration-style: none;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+  float:left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #111;
+}
 
 
 h1{
