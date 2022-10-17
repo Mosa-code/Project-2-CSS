@@ -16,16 +16,14 @@ padding: .5cm;
 text-decoration-style: none;
 }
 
-ul{
+ul.nav_bar{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(69, 26, 26);
 }
-li{
-  float:left;
-}
+
 
 li a{
   display: block;
@@ -70,4 +68,11 @@ h2{
 }
 .onpage2{
   width: fixed;
+  background-image: url("../image/cool-background2.png");
+  background-repeat: repeat;
+}
+
+img{
+  height: 10cm;
+  width: 10cm;
 }
