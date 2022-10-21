@@ -13,7 +13,6 @@ a:link, a:visited, a:hover, a:active{
 float: left;
 display: block;
 padding: .5cm;
-text-decoration-style: none;
 }
 
 ul.nav_bar{
@@ -42,7 +41,6 @@ h1{
   text-decoration: underline;
   color: darkolivegreen;
   padding: .1%;
-  float: right, left;
 }
 
 .Intro{
@@ -67,7 +65,8 @@ h2{
   background-color: #00b4f5;
 }
 .onpage2{
-  width: fixed;
+  margin:auto;
+  width: 1000px;
   background-image: url("../image/cool-background2.png");
   background-repeat: repeat;
 }
