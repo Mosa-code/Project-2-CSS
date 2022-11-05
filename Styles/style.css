@@ -9,20 +9,42 @@ a:link, a:visited, a:hover, a:active{
   color: white;
 }
 
-.nav_bar li{
-float: left;
-display: block;
+.nav_bar ul li{
+display: inline-block;
 padding: .5cm;
+text-align: center;
+position: center;
+
 }
 
-ul.nav_bar{
+li{
+  font-size: larger;
+  font-weight: bold;
+}
+
+nav.nav_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
   overflow: hidden;
   background-color: rgb(69, 26, 26);
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin-left: 0px; 
 }
 
+nav.nav_bar li a{
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100px;
+  padding: 10px 0px 8px 0px;
+  border-radius: 4px;
+}
 
 li a{
   display: block;
@@ -41,6 +63,7 @@ h1{
   text-decoration: underline;
   color: darkolivegreen;
   padding: .1%;
+  float: none;
 }
 
 .Intro{
@@ -52,6 +75,14 @@ h1{
 h2{
   margin-left: .5cm;
   margin-top: .5cm;
+  position: relative;
+  float:left right;
+  text-align: center;
+}
+
+p{
+  margin-right: 100px;
+  margin-left: 20px;
 }
 
 .onpage{
@@ -62,16 +93,33 @@ h2{
 .onpage1{
   background-image: url("../image/crissxcross.png");
   background-repeat:repeat;
-  background-color: #00b4f5;
+  background-color: #00b4f5;  
 }
+.onpage1 img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  height: 15cm;
+  width: 20cm;
+}
+
 .onpage2{
   margin:auto;
-  width: 1000px;
   background-image: url("../image/cool-background2.png");
   background-repeat: repeat;
 }
 
-img{
-  height: 10cm;
-  width: 10cm;
+.onpage2 img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  height: 20cm;
+  width: 20cm;
 }
+
+.onpage2 #wrapper{
+  margin:0;
+  padding: 0;
+  border: 0;
+}
+
