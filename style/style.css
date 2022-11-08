@@ -13,8 +13,6 @@ a:link, a:visited, a:hover, a:active{
 display: inline-block;
 padding: .5cm;
 text-align: center;
-position: center;
-
 }
 
 li{
@@ -76,7 +74,7 @@ h2{
   margin-left: .5cm;
   margin-top: .5cm;
   position: relative;
-  float:left right;
+  float:none;
   text-align: center;
 }
 
